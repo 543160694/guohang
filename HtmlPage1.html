@@ -1,0 +1,92 @@
+﻿
+   <!-- Button html按钮关键字//
+    //Style css修饰html关键字-->
+
+    <!--<style>
+        Button {
+            Background-color：red;
+            or rgb (0,0,200)//背景色 //Rgb=red,green,bule()括号里的数值对应代表多少三原色 //全最大时（255，255，255）白色 //全最小时（0，0，0）黑色 Color:white;
+            //文本色 Border:none;
+            //无边框 Height:36px;
+            //button样式的高度 Width:105px;
+            //宽度 Border-radius:2px;
+            //button圆角 Cursor:pointer;
+            // 更改光标为指针
+        }
+
+        <button > SUBSCRIBE</button >
+        <button > JOIN</button >-->
+
+       <!-- CSS中以点号开头为定位类名：-->
+
+<style>
+   /* @import url("001.css");*/
+    /* //定位类*/
+    .subscribe-button {
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 15px;
+        transition: opacity 0.1s;
+    }
+        .subscribe-button:hover{
+            opacity:0.8;
+        }
+        .subscribe-button:active {
+            opacity: 0.5;
+        }
+
+    .join-button {
+        background-color: white;
+        border-color: rgb(44 146 219);
+        border-style: solid;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 14px;
+        padding-right: 14px;
+        color: rgb(44 146 219);
+        s border-radius: 2px;
+        cursor: pointer;
+        margin-right: 15px;
+        transition: background-color 1s, color 1s;
+    }
+        .join-button:hover {
+           background-color:blue;
+           color:white
+        }
+
+
+    .tweet-button {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 14px;
+        padding-right: 14px;
+        border-radius: 20px;
+        background-color: rgb(77 176 248);
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 15px;
+        transition: box-shadow 1s;
+    }
+        .tweet-button:hover {
+             box-shadow:0px 3px 5px rgba(0,0,0,0.2);
+        }
+    </style>
+            <button class="subscribe-button" >
+            SUBSCRIBE
+            </button >
+            <button class="join-button">
+               JOIN
+            </button>
+            <button class="tweet-button">
+                Tweet
+            </button>
+        
