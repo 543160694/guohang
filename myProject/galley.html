@@ -1,0 +1,59 @@
+<html>
+     <head>
+        <style>
+         body{
+            margin: 0;
+            background-color: rgb(53, 48, 48);
+         }
+             .navigation{
+                 background-color: rgb(53, 48, 48);
+                 color: white;
+                 font-weight: 100;
+                
+                 width: 10vw;
+                 height: 3vw;
+                 border: rgb(221, 218, 218) solid 1px;
+                 border-radius: 40px;
+                 z-index: 2;
+             }
+             .sidebar{
+               background-color:rgb(22, 19, 19);
+               position: absolute;
+               left: 0;
+               bottom: 0;
+               height: 10vw;
+               width: 30vw;
+              
+             }
+             .sidebarbottom{
+                background-color: red;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+             }
+           
+             .content{
+                display: grid;
+
+                position: relative;
+                top:110vw;
+                left:110vw;
+               
+             }
+            </style>
+     </head>
+    <body>
+         <button class="navigation">
+          Navigation
+         </button>
+         <div class="sidebar" >
+            <div class="sidebarbottom">我是底部</div>
+          旁边
+        </div>
+        <div class="content">
+            <p>hello world</p>
+
+
+        </div>
+    </body>
+</html>
