@@ -59,7 +59,8 @@
     }
     .gridbox>div{
         
-       
+       width:340px;
+      height:200px;
         margin-left: 60px;
         
         border-width: 1px;
